@@ -1,0 +1,5 @@
+.component-panel {
+    border: 1px solid grey;
+    padding: 10px;
+    display: block;
+}

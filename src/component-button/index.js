@@ -1,9 +1,10 @@
 require('insert-css')(require('./style.css'))
 
 module.exports = {
-    id: 'a',
+    tagName: 'component-button',
     template: require('./template.html'),
     data: {
-        msg: 'I am component A!'
-    }
+        label: 'Button!'
+    },
+    replace:true
 }

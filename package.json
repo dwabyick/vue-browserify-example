@@ -14,6 +14,6 @@
   "author": "Evan You",
   "license": "MIT",
   "scripts": {
-    "dev": "watchify -e src/main.js -t partialify -o dist/bundle.js"
+    "dev": "watchify --debug -e src/main.js -t partialify -o dist/bundle.js"
   }
 }
